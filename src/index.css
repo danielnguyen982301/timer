@@ -59,6 +59,12 @@ p {
 }
 .timer__display > p {
   font-size: 5em;
+  text-align: center;
+}
+
+.second__timer__display > p {
+  font-size: 2em;
+  text-align: center;
 }
 
 .button__wrapper {
@@ -87,6 +93,16 @@ p {
 .button:disabled {
   background-color: rgb(170, 164, 164);
 }
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+table th {
+  border-bottom: 1px solid;
+}
+
 /* .button.active {
   border: 1px solid var(--text-main-color);
   background-color: var(--text-main-color);
@@ -106,5 +122,9 @@ p {
   .timer__display > p {
     font-size: 3.8em;
     padding-left: 0;
+  }
+
+  .second__timer__display > p {
+    font-size: 1.5em;
   }
 }
